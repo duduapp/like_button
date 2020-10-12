@@ -216,8 +216,8 @@ class LikeButtonState extends State<LikeButton> with TickerProviderStateMixin {
                 ),
               ),
               Container(
-                width: widget.size,
-                height: widget.size,
+//                width: widget.size,
+//                height: widget.size,
                 alignment: Alignment.center,
                 child: Transform.scale(
                   scale: ((_isLiked ?? true) && _controller.isAnimating)
@@ -225,8 +225,8 @@ class LikeButtonState extends State<LikeButton> with TickerProviderStateMixin {
                       : 1.0,
                   child: SizedBox(
                     child: likeWidget,
-                    height: widget.size,
-                    width: widget.size,
+//                    height: widget.size,
+//                    width: widget.size,
                   ),
                 ),
               ),
